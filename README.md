@@ -7,7 +7,7 @@ Get as much done as you can during class, and then finish up what you don't comp
 ## Task 1 - Map
 
 ```js
-const cats = ["tony", "daisy", "socks", "rockie" ];
+const cats = ["tony", "daisy", "socks", "rockie"];
 ```
 
 You have an array of code coaches.
@@ -30,14 +30,14 @@ const animals = [
 ];
 ```
 
-You have an array of lovely animals. However, you can only keep the animals that start with the letter `b`. 
+You have an array of lovely animals. However, you can only keep the animals that start with the letter `b`.
 
-👉 2a. In the new variable `bListAnimals`, use the `.filter()` method to generate a new array which contains only the animals whose name begins with 'b'. 
+👉 2a. In the new variable `bListAnimals`, use the `.filter()` method to generate a new array which contains only the animals whose name begins with 'b'.
 
 ## Task 3 - Some
 
 ```js
-const someNumbers = [4, 5, 6, 78, 2, 3, 45, 34, 2, 23, 5, 45, 6, 7, 23]
+const someNumbers = [4, 5, 6, 78, 2, 3, 45, 34, 2, 23, 5, 45, 6, 7, 23];
 ```
 
 You have an array which contains some numbers. You would like to find out if any of the numbers are multiples of the following numbers:
@@ -47,7 +47,7 @@ You have an array which contains some numbers. You would like to find out if any
 - 60
 - 90
 
-👉 3a. Declare four new variables, one for each of the numbers above. Use the `.some()` method to assign a value of true or false (a boolean) to each of the variables, depending on whether there is at least one multiple of that number in the `someNumbers` array. 
+👉 3a. Declare four new variables, one for each of the numbers above. Use the `.some()` method to assign a value of true or false (a boolean) to each of the variables, depending on whether there is at least one multiple of that number in the `someNumbers` array.
 
 ## Task 4 - Every, Find, Find Index
 
@@ -55,16 +55,7 @@ You have an array which contains some numbers. You would like to find out if any
 const sevenTimesTable = [7, 14, 21, 28, 35, 42, 49, 56, 63, 70];
 
 const seventySevenTimesTable = [
-  77,
-  154,
-  231,
-  308,
-  385,
-  461,
-  538,
-  616,
-  693,
-  770,
+  77, 154, 231, 308, 385, 461, 538, 616, 693, 770,
 ];
 ```
 
@@ -96,7 +87,7 @@ const queue = [
 
 You run a nightclub for mutated animals. Naturally, when people join the queue for the nightclub, you mutate the 'queue' array and allow them to wait in line. The queue starts at index 0 (this is the front of the queue).
 
-For these tasks, use the following array methods: 
+For these tasks, use the following array methods:
 
 - Push
 - Pop
@@ -136,7 +127,7 @@ You are the Sorting Hat. Although you're famous for sorting Hogwart's students i
 const broomCupboard = [2, 4, 1, 3, 7, 5, 8, 6, 10, 9, 0];
 ```
 
-The students always put their broomsticks back in the broom cupboard out of order, despite the fact they are each clearly labeled with a number. No matter, sorting numbers is a piece of cauldron cake. 
+The students always put their broomsticks back in the broom cupboard out of order, despite the fact they are each clearly labeled with a number. No matter, sorting numbers is a piece of cauldron cake.
 
 👉 6a. Using the .sort() method, rearrange the brooms (numbers) in the broomCupboard array so that they are in ASCENDING order, with broomstick 1 at index 0 and broomstick 10 and index 9.
 
@@ -149,7 +140,7 @@ const potions = [
 ];
 ```
 
-Tsk tsk tsk. It looks like Snape can't even sort his own potion cupboard. 
+Tsk tsk tsk. It looks like Snape can't even sort his own potion cupboard.
 
 👉 6b. Using the .sort() method and the `shelf` property of each potions object, rearrange the four potions in the 'potions' array so they are in DESCENDING order of their shelves, with the 'draught of living death' at index 0 and the 'pepperup potion' at index 3.
 
@@ -165,9 +156,9 @@ const students = [
 ];
 ```
 
-Some students have been kept behind in detention by Professor McGonagall. Obsessed with orderliness, she has asked you to sort the students into alphabetical order. 
- 
-👉 6c. Sort the names in the array in alphebetical order according to their *last* name.
+Some students have been kept behind in detention by Professor McGonagall. Obsessed with orderliness, she has asked you to sort the students into alphabetical order.
+
+👉 6c. Sort the names in the array in alphebetical order according to their _last_ name.
 
 ## Extra
 
